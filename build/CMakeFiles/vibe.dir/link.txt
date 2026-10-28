@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/vibe.dir/link.d CMakeFiles/vibe.dir/src/interpreter.c.o CMakeFiles/vibe.dir/src/main.c.o -o /data/data/com.termux/files/home/c/vibe/bin/vibe

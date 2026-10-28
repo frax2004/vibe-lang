@@ -1,0 +1,30 @@
+
+x = 45;
+x = false;
+x = "Hello";
+x = 'World';
+x = [x, x];
+x = {1: x, 2: x};
+x = () => 10;
+
+
+Person = (name, age) => {
+	name: name,
+	age: age,
+	toString: (this) => "{this.name}: {this.age}"
+};
+
+x = Person(age = 23, name = "Francesco");
+print x.toString();
+
+if x.age >= 18 {
+	print "You can drive";
+} else print "You cannot drive";
+
+for letter : x.name {
+	print letter;
+}
+
+for i : 1..10 {
+	print i;
+}
