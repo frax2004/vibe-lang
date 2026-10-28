@@ -1,11 +1,12 @@
 file(REMOVE_RECURSE
-  "/data/data/com.termux/files/home/c/vibe/bin/vibe"
-  "/data/data/com.termux/files/home/c/vibe/bin/vibe.pdb"
-  "CMakeFiles/vibe.dir/link.d"
-  "CMakeFiles/vibe.dir/src/interpreter.c.o"
-  "CMakeFiles/vibe.dir/src/interpreter.c.o.d"
-  "CMakeFiles/vibe.dir/src/main.c.o"
-  "CMakeFiles/vibe.dir/src/main.c.o.d"
+  "C:/Dev/c/vibe-lang/bin/vibe.exe"
+  "C:/Dev/c/vibe-lang/bin/vibe.exe.manifest"
+  "C:/Dev/c/vibe-lang/bin/vibe.pdb"
+  "CMakeFiles/vibe.dir/src/interpreter.c.obj"
+  "CMakeFiles/vibe.dir/src/interpreter.c.obj.d"
+  "CMakeFiles/vibe.dir/src/main.c.obj"
+  "CMakeFiles/vibe.dir/src/main.c.obj.d"
+  "libvibe.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

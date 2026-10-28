@@ -1,14 +1,14 @@
 [
 {
-  "directory": "/data/data/com.termux/files/home/c/vibe/build",
-  "command": "/data/data/com.termux/files/usr/bin/cc  -I/data/data/com.termux/files/home/c/vibe/include -O2 -g -DNDEBUG -std=c23 -o CMakeFiles/vibe.dir/src/interpreter.c.o -c /data/data/com.termux/files/home/c/vibe/src/interpreter.c",
-  "file": "/data/data/com.termux/files/home/c/vibe/src/interpreter.c",
-  "output": "CMakeFiles/vibe.dir/src/interpreter.c.o"
+  "directory": "C:/Dev/c/vibe-lang/build",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe  @CMakeFiles/vibe.dir/includes_C.rsp -g -std=c23 -o CMakeFiles\\vibe.dir\\src\\interpreter.c.obj -c C:\\Dev\\c\\vibe-lang\\src\\interpreter.c",
+  "file": "C:/Dev/c/vibe-lang/src/interpreter.c",
+  "output": "CMakeFiles/vibe.dir/src/interpreter.c.obj"
 },
 {
-  "directory": "/data/data/com.termux/files/home/c/vibe/build",
-  "command": "/data/data/com.termux/files/usr/bin/cc  -I/data/data/com.termux/files/home/c/vibe/include -O2 -g -DNDEBUG -std=c23 -o CMakeFiles/vibe.dir/src/main.c.o -c /data/data/com.termux/files/home/c/vibe/src/main.c",
-  "file": "/data/data/com.termux/files/home/c/vibe/src/main.c",
-  "output": "CMakeFiles/vibe.dir/src/main.c.o"
+  "directory": "C:/Dev/c/vibe-lang/build",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe  @CMakeFiles/vibe.dir/includes_C.rsp -g -std=c23 -o CMakeFiles\\vibe.dir\\src\\main.c.obj -c C:\\Dev\\c\\vibe-lang\\src\\main.c",
+  "file": "C:/Dev/c/vibe-lang/src/main.c",
+  "output": "CMakeFiles/vibe.dir/src/main.c.obj"
 }
 ]

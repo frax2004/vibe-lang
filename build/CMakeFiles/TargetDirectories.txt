@@ -1,3 +1,3 @@
-/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/vibe.dir
-/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/edit_cache.dir
-/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/rebuild_cache.dir
+C:/Dev/c/vibe-lang/build/CMakeFiles/vibe.dir
+C:/Dev/c/vibe-lang/build/CMakeFiles/edit_cache.dir
+C:/Dev/c/vibe-lang/build/CMakeFiles/rebuild_cache.dir
