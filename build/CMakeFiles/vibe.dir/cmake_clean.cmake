@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "C:/Dev/c/vibe-lang/bin/vibe.exe"
   "C:/Dev/c/vibe-lang/bin/vibe.exe.manifest"
   "C:/Dev/c/vibe-lang/bin/vibe.pdb"
+  "CMakeFiles/vibe.dir/src/error.c.obj"
+  "CMakeFiles/vibe.dir/src/error.c.obj.d"
   "CMakeFiles/vibe.dir/src/interpreter.c.obj"
   "CMakeFiles/vibe.dir/src/interpreter.c.obj.d"
   "CMakeFiles/vibe.dir/src/main.c.obj"

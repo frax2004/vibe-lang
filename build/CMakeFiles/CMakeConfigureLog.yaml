@@ -2,705 +2,6 @@
 ---
 events:
   -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_UNAME"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "uname"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-      - "/bin/"
-      - "/usr/bin/"
-      - "/usr/local/bin/"
-    found: "/data/data/com.termux/files/usr/bin/uname"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
-      - "CMakeLists.txt:1 (project)"
-    message: |
-      The system is: Android - 35 - aarch64
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_MAKE_PROGRAM"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "gmake"
-      - "make"
-      - "smake"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    searched_directories:
-      - "/data/data/com.termux/files/usr/bin/gmake"
-    found: "/data/data/com.termux/files/usr/bin/make"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER"
-    description: "C compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "cc"
-      - "gcc"
-      - "cl"
-      - "bcc"
-      - "xlc"
-      - "icx"
-      - "clang"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/cc"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCCompilerId.c.in"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/"
-    found: "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:1 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /data/data/com.termux/files/usr/bin/cc 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-      
-      The C compiler identification is Clang, found in:
-        /data/data/com.termux/files/home/c/vibe/build/CMakeFiles/4.4.4/CompilerIdC/a.out
-      
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_AR"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-ar"
-      - "ar"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-ar"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_RANLIB"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-ranlib"
-      - "ranlib"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-ranlib"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_STRIP"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-strip"
-      - "strip"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-strip"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_LINKER"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "ld.lld"
-      - "ld"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/ld.lld"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_NM"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-nm"
-      - "nm"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-nm"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_OBJDUMP"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-objdump"
-      - "objdump"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-objdump"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_OBJCOPY"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-objcopy"
-      - "objcopy"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-objcopy"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_READELF"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-readelf"
-      - "readelf"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-readelf"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_DLLTOOL"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-dlltool"
-      - "dlltool"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-dlltool"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_ADDR2LINE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-addr2line"
-      - "addr2line"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    found: "/data/data/com.termux/files/usr/bin/llvm-addr2line"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_TAPI"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "tapi"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    searched_directories:
-      - "/data/data/com.termux/files/usr/bin/tapi"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER_AR"
-    description: "LLVM archiver"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-ar-21.1"
-      - "llvm-ar-21"
-      - "llvm-ar21"
-      - "llvm-ar"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    searched_directories:
-      - "/data/data/com.termux/files/usr/bin/llvm-ar-21.1"
-      - "/data/data/com.termux/files/usr/bin/llvm-ar-21"
-      - "/data/data/com.termux/files/usr/bin/llvm-ar21"
-    found: "/data/data/com.termux/files/usr/bin/llvm-ar"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER_RANLIB"
-    description: "Generate index for LLVM archive"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-ranlib-21.1"
-      - "llvm-ranlib-21"
-      - "llvm-ranlib21"
-      - "llvm-ranlib"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    searched_directories:
-      - "/data/data/com.termux/files/usr/bin/llvm-ranlib-21.1"
-      - "/data/data/com.termux/files/usr/bin/llvm-ranlib-21"
-      - "/data/data/com.termux/files/usr/bin/llvm-ranlib21"
-    found: "/data/data/com.termux/files/usr/bin/llvm-ranlib"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:1 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
-    description: "`clang-scan-deps` dependency scanner"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "clang-scan-deps-21.1"
-      - "clang-scan-deps-21"
-      - "clang-scan-deps21"
-      - "clang-scan-deps"
-      - "clang-scan-deps-21.1"
-      - "clang-scan-deps-21"
-      - "clang-scan-deps21"
-      - "clang-scan-deps"
-    candidate_directories:
-      - "/data/data/com.termux/files/usr/bin/"
-    searched_directories:
-      - "/data/data/com.termux/files/usr/bin/clang-scan-deps-21.1"
-      - "/data/data/com.termux/files/usr/bin/clang-scan-deps-21"
-      - "/data/data/com.termux/files/usr/bin/clang-scan-deps21"
-    found: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
-    search_context:
-      ENV{PATH}:
-        - "/data/data/com.termux/files/usr/bin"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:1 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6"
-      binary: "/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: false
-      stdout: |
-        Change Dir: '/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6'
-        
-        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_289a6/fast
-        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_289a6.dir/build.make CMakeFiles/cmTC_289a6.dir/build
-        make[1]: Entering directory '/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6'
-        Building C object CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o
-        /data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCCompilerABI.c
-        clang version 21.1.8
-        Target: aarch64-unknown-linux-android24
-        Thread model: posix
-        InstalledDir: /data/data/com.termux/files/usr/bin
-         (in-process)
-         "/data/data/com.termux/files/usr/bin/clang-21" -cc1 -triple aarch64-unknown-linux-android24 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6 -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6 -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCCompilerABI.c
-        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android24
-        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"
-        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /data/data/com.termux/files/usr/lib/clang/21/include
-         /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android
-         /data/data/com.termux/files/usr/bin/../../usr/include
-        End of search list.
-        Linking C executable cmTC_289a6
-        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289a6.dir/link.txt --verbose=1
-        clang version 21.1.8
-        Target: aarch64-unknown-linux-android24
-        Thread model: posix
-        InstalledDir: /data/data/com.termux/files/usr/bin
-         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_289a6 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o
-        /data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -o cmTC_289a6
-        make[1]: Leaving directory '/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6'
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:1 (project)"
-    message: |
-      Parsed C implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/data/data/com.termux/files/usr/lib/clang/21/include]
-          add: [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
-          add: [/data/data/com.termux/files/usr/bin/../../usr/include]
-        end of search list found
-        collapse include dir [/data/data/com.termux/files/usr/lib/clang/21/include] ==> [/data/data/com.termux/files/usr/lib/clang/21/include]
-        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
-        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include] ==> [/data/data/com.termux/files/usr/include]
-        implicit include dirs: [/data/data/com.termux/files/usr/lib/clang/21/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:1 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6']
-        ignore line: []
-        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_289a6/fast]
-        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_289a6.dir/build.make CMakeFiles/cmTC_289a6.dir/build]
-        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6']
-        ignore line: [Building C object CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCCompilerABI.c]
-        ignore line: [clang version 21.1.8]
-        ignore line: [Target: aarch64-unknown-linux-android24]
-        ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-        ignore line: [ (in-process)]
-        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-21" -cc1 -triple aarch64-unknown-linux-android24 -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6 -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/c/vibe/build/CMakeFiles/CMakeScratch/TryCompile-OodTv6 -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCCompilerABI.c]
-        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android24]
-        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /data/data/com.termux/files/usr/lib/clang/21/include]
-        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
-        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include]
-        ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_289a6]
-        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289a6.dir/link.txt --verbose=1]
-        ignore line: [clang version 21.1.8]
-        ignore line: [Target: aarch64-unknown-linux-android24]
-        ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_289a6 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> linker [/data/data/com.termux/files/usr/bin/ld.lld]
-        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_289a6 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> linker architecture flags [-m;aarch64linux]
-        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_289a6 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
-          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
-          arg [--sysroot=/data/data/com.termux/files/usr/bin/../..] ==> ignore
-          arg [-EL] ==> ignore
-          arg [--fix-cortex-a53-843419] ==> ignore
-          arg [-znow] ==> ignore
-          arg [-zrelro] ==> ignore
-          arg [-zmax-page-size=16384] ==> ignore
-          arg [--no-rosegment] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [-rpath=/data/data/com.termux/files/usr/bin/../../usr/lib] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [-m] ==> ignore
-          arg [aarch64linux] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/system/bin/linker64] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_289a6] ==> ignore
-          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o]
-          arg [-L/data/data/com.termux/files/usr/bin/../../usr/lib] ==> dir [/data/data/com.termux/files/usr/bin/../../usr/lib]
-          arg [-L/system/lib64] ==> dir [/system/lib64]
-          arg [CMakeFiles/cmTC_289a6.dir/CMakeCCompilerABI.c.o] ==> ignore
-          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
-          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
-          arg [-ldl] ==> lib [dl]
-          arg [-lc] ==> lib [c]
-          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
-          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
-          arg [-ldl] ==> lib [dl]
-          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
-        linker tool for 'C': /data/data/com.termux/files/usr/bin/ld.lld -m;aarch64linux
-        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
-        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
-        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
-        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> [/data/data/com.termux/files/usr/lib/crtend_android.o]
-        collapse library dir [/data/data/com.termux/files/usr/bin/../../usr/lib] ==> [/data/data/com.termux/files/usr/lib]
-        collapse library dir [/system/lib64] ==> [/system/lib64]
-        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
-        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
-        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
-      - "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:1 (project)"
-    message: |
-      Running the C compiler's linker: "/data/data/com.termux/files/usr/bin/ld.lld" "-v"
-      LLD 21.1.8 (compatible with GNU linkers)
-...
-
----
-events:
-  -
     kind: "message-v1"
     backtrace:
       - "C:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
@@ -3803,8 +3104,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw"
-      binary: "C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw"
+      source: "C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i"
+      binary: "C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3813,19 +3114,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw'
+        Change Dir: 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6dd27/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6dd27.dir\\build.make CMakeFiles/cmTC_6dd27.dir/build
-        mingw32-make[1]: Entering directory 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw'
-        Building C object CMakeFiles/cmTC_6dd27.dir/CMakeCCompilerABI.c.obj
-        C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_6dd27.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_6dd27.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_6dd27.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b92c7/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b92c7.dir\\build.make CMakeFiles/cmTC_b92c7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i'
+        Building C object CMakeFiles/cmTC_b92c7.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_b92c7.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_b92c7.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_b92c7.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
         clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
          (in-process)
-         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw -v -fcoverage-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw -resource-dir C:/msys64/mingw64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_6dd27.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_6dd27.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/22/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_6dd27.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\msys64\\\\mingw64\\\\share\\\\cmake\\\\Modules\\\\CMakeCCompilerABI.c"
+         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i -v -fcoverage-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i -resource-dir C:/msys64/mingw64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_b92c7.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_b92c7.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/22/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_b92c7.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\msys64\\\\mingw64\\\\share\\\\cmake\\\\Modules\\\\CMakeCCompilerABI.c"
         clang -cc1 version 22.1.4 based upon LLVM 22.1.4 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"
@@ -3834,18 +3135,18 @@ events:
          C:/msys64/mingw64/lib/clang/22/include
          C:/msys64/mingw64/include
         End of search list.
-        Linking C executable cmTC_6dd27.exe
-        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6dd27.dir\\link.txt --verbose=1
+        Linking C executable cmTC_b92c7.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b92c7.dir\\link.txt --verbose=1
         clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
-         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_6dd27.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/clang/22/lib/windows -v --whole-archive "CMakeFiles\\\\cmTC_6dd27.dir/objects.a" --no-whole-archive --out-implib libcmTC_6dd27.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_b92c7.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/clang/22/lib/windows -v --whole-archive "CMakeFiles\\\\cmTC_b92c7.dir/objects.a" --no-whole-archive --out-implib libcmTC_b92c7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_6dd27.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_6dd27.dir/objects.a @CMakeFiles\\cmTC_6dd27.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\clang.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_6dd27.dir/objects.a -Wl,--no-whole-archive -o cmTC_6dd27.exe -Wl,--out-implib,libcmTC_6dd27.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_b92c7.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_b92c7.dir/objects.a @CMakeFiles\\cmTC_b92c7.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_b92c7.dir/objects.a -Wl,--no-whole-archive -o cmTC_b92c7.exe -Wl,--out-implib,libcmTC_b92c7.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i'
         
       exitCode: 0
   -
@@ -3876,19 +3177,19 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw']
+        ignore line: [Change Dir: 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6dd27/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6dd27.dir\\build.make CMakeFiles/cmTC_6dd27.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw']
-        ignore line: [Building C object CMakeFiles/cmTC_6dd27.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_6dd27.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_6dd27.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_6dd27.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b92c7/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b92c7.dir\\build.make CMakeFiles/cmTC_b92c7.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i']
+        ignore line: [Building C object CMakeFiles/cmTC_b92c7.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_b92c7.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_b92c7.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_b92c7.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c]
         ignore line: [clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw -v -fcoverage-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-n3f0aw -resource-dir C:/msys64/mingw64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_6dd27.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_6dd27.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/22/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_6dd27.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\msys64\\\\mingw64\\\\share\\\\cmake\\\\Modules\\\\CMakeCCompilerABI.c"]
+        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i -v -fcoverage-compilation-dir=C:/Dev/c/vibe-lang/build/CMakeFiles/CMakeScratch/TryCompile-i5dr2i -resource-dir C:/msys64/mingw64/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_b92c7.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_b92c7.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/22/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_b92c7.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\msys64\\\\mingw64\\\\share\\\\cmake\\\\Modules\\\\CMakeCCompilerABI.c"]
         ignore line: [clang -cc1 version 22.1.4 based upon LLVM 22.1.4 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"]
@@ -3897,19 +3198,19 @@ events:
         ignore line: [ C:/msys64/mingw64/lib/clang/22/include]
         ignore line: [ C:/msys64/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_6dd27.exe]
-        ignore line: [C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6dd27.dir\\link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_b92c7.exe]
+        ignore line: [C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b92c7.dir\\link.txt --verbose=1]
         ignore line: [clang version 22.1.4 (https://github.com/msys2/MINGW-packages 42681e05ad3617c25e48a935a48eddc72a3ac7e2)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
-        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_6dd27.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/clang/22/lib/windows -v --whole-archive "CMakeFiles\\\\cmTC_6dd27.dir/objects.a" --no-whole-archive --out-implib libcmTC_6dd27.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_b92c7.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/clang/22/lib/windows -v --whole-archive "CMakeFiles\\\\cmTC_b92c7.dir/objects.a" --no-whole-archive --out-implib libcmTC_b92c7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_6dd27.exe] ==> ignore
+          arg [cmTC_b92c7.exe] ==> ignore
           arg [C:/msys64/mingw64/lib/crt2.o] ==> obj [C:/msys64/mingw64/lib/crt2.o]
           arg [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -3919,10 +3220,10 @@ events:
           arg [-LC:/msys64/mingw64/lib/clang/22/lib/windows] ==> dir [C:/msys64/mingw64/lib/clang/22/lib/windows]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\\\cmTC_6dd27.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\\\cmTC_b92c7.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_6dd27.dll.a] ==> ignore
+          arg [libcmTC_b92c7.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3972,4 +3273,600 @@ events:
     message: |
       Running the C compiler's linker: "C:/msys64/mingw64/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.46
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake/Modules/FindFLEX.cmake:272 (find_program)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "program"
+    variable: "FLEX_EXECUTABLE"
+    description: "path to the flex executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "flex"
+      - "win-flex"
+      - "win_flex"
+    candidate_directories:
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/sqllite/"
+      - "C:/Users/franc/.cargo/bin/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/franc/.dotnet/tools/"
+      - "C:/Users/franc/go/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.2/bin/"
+      - "C:/Users/franc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/flutter/bin/"
+      - "C:/zig/"
+      - "C:/Users/franc/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/clang-uml/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WinGet/Packages/sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe/hyperfine-v1.20.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/mingw64/sbin/"
+      - "C:/msys64/mingw64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/vibe/bin/"
+      - "C:/Program Files (x86)/vibe/sbin/"
+      - "C:/Program Files (x86)/vibe/"
+    searched_directories:
+      - "C:/msys64/mingw64/bin/flex.com"
+      - "C:/msys64/mingw64/bin/flex.exe"
+      - "C:/msys64/mingw64/bin/flex"
+      - "C:/msys64/usr/bin/flex.com"
+    found: "C:/msys64/usr/bin/flex.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/Common Files/Oracle/Java/javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/WorldPainter"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/sqllite"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:/Users/franc/.cargo/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\franc\\.dotnet\\tools"
+        - "C:/Users/franc/go/bin"
+        - "C:\\Users\\franc\\.cargo\\bin"
+        - "C:/Program Files/JetBrains/CLion 2025.1.2/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:/flutter/bin"
+        - "C:\\zig\\"
+        - "C:/Users/franc/AppData/Local/Pub/Cache/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/clang-uml/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe\\hyperfine-v1.20.0-x86_64-pc-windows-msvc"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vibe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/mingw64"
+        - "C:/Program Files (x86)/vibe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake/Modules/FindFLEX.cmake:275 (find_library)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "library"
+    variable: "FL_LIBRARY"
+    description: "Path to the fl library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fl"
+    candidate_directories:
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/sqllite/"
+      - "C:/Users/franc/.cargo/bin/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/franc/.dotnet/tools/"
+      - "C:/Users/franc/go/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.2/bin/"
+      - "C:/Users/franc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/flutter/bin/"
+      - "C:/zig/"
+      - "C:/Users/franc/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/clang-uml/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WinGet/Packages/sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe/hyperfine-v1.20.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/mingw64/lib/"
+      - "C:/msys64/mingw64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/vibe/lib/"
+      - "C:/Program Files (x86)/vibe/"
+      - "C:/Program Files (x86)/vibe/bin/"
+      - "/bin/"
+    searched_directories:
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/sqllite/"
+      - "C:/Users/franc/.cargo/bin/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/franc/.dotnet/tools/"
+      - "C:/Users/franc/go/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.2/bin/"
+      - "C:/Users/franc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/flutter/bin/"
+      - "C:/zig/"
+      - "C:/Users/franc/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/clang-uml/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WinGet/Packages/sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe/hyperfine-v1.20.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/mingw64/lib/"
+      - "C:/msys64/mingw64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/vibe/lib/"
+      - "C:/Program Files (x86)/vibe/"
+      - "C:/Program Files (x86)/vibe/bin/"
+      - "/bin/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/Common Files/Oracle/Java/javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/WorldPainter"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/sqllite"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:/Users/franc/.cargo/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\franc\\.dotnet\\tools"
+        - "C:/Users/franc/go/bin"
+        - "C:\\Users\\franc\\.cargo\\bin"
+        - "C:/Program Files/JetBrains/CLion 2025.1.2/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:/flutter/bin"
+        - "C:\\zig\\"
+        - "C:/Users/franc/AppData/Local/Pub/Cache/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/clang-uml/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe\\hyperfine-v1.20.0-x86_64-pc-windows-msvc"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vibe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/mingw64"
+        - "C:/Program Files (x86)/vibe"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/vibe/bin"
+        - "C:/msys64/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake/Modules/FindFLEX.cmake:278 (find_path)"
+      - "CMakeLists.txt:12 (find_package)"
+    mode: "path"
+    variable: "FLEX_INCLUDE_DIR"
+    description: "Path to the flex headers"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FlexLexer.h"
+    candidate_directories:
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/sqllite/"
+      - "C:/Users/franc/.cargo/bin/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/franc/.dotnet/tools/"
+      - "C:/Users/franc/go/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.2/bin/"
+      - "C:/Users/franc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/flutter/bin/"
+      - "C:/zig/"
+      - "C:/Users/franc/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/clang-uml/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WinGet/Packages/sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe/hyperfine-v1.20.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/mingw64/include/"
+      - "C:/msys64/mingw64/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/vibe/include/"
+      - "C:/Program Files (x86)/vibe/"
+    searched_directories:
+      - "C:/msys64/mingw64/bin/FlexLexer.h"
+      - "C:/msys64/usr/bin/FlexLexer.h"
+      - "C:/Program Files/CMake/bin/FlexLexer.h"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/FlexLexer.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/FlexLexer.h"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/FlexLexer.h"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/FlexLexer.h"
+      - "C:/Windows/System32/FlexLexer.h"
+      - "C:/Windows/FlexLexer.h"
+      - "C:/Windows/System32/wbem/FlexLexer.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/FlexLexer.h"
+      - "C:/Windows/System32/OpenSSH/FlexLexer.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/FlexLexer.h"
+      - "C:/Program Files/dotnet/FlexLexer.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/FlexLexer.h"
+      - "C:/Program Files/Go/bin/FlexLexer.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/FlexLexer.h"
+      - "C:/Program Files/MATLAB/R2025b/bin/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools/FlexLexer.h"
+      - "C:/Program Files/WorldPainter/FlexLexer.h"
+      - "C:/Program Files/Git/cmd/FlexLexer.h"
+      - "C:/sqllite/FlexLexer.h"
+      - "C:/Users/franc/.cargo/bin/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/Scripts/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Launcher/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/FlexLexer.h"
+      - "C:/Users/franc/.dotnet/tools/FlexLexer.h"
+      - "C:/Users/franc/go/bin/FlexLexer.h"
+      - "C:/Program Files/JetBrains/CLion 2025.1.2/bin/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/GitHubDesktop/bin/FlexLexer.h"
+      - "C:/flutter/bin/FlexLexer.h"
+      - "C:/zig/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Pub/Cache/bin/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Microsoft/WindowsApps/FlexLexer.h"
+      - "C:/clang-uml/bin/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Microsoft/WinGet/Packages/sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe/hyperfine-v1.20.0-x86_64-pc-windows-msvc/FlexLexer.h"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/FlexLexer.h"
+      - "C:/msys64/mingw64/include/FlexLexer.h"
+      - "C:/msys64/mingw64/FlexLexer.h"
+      - "C:/Program Files/include/FlexLexer.h"
+      - "C:/Program Files/FlexLexer.h"
+      - "C:/Program Files (x86)/include/FlexLexer.h"
+      - "C:/Program Files (x86)/FlexLexer.h"
+      - "C:/Program Files (x86)/vibe/include/FlexLexer.h"
+      - "C:/Program Files (x86)/vibe/FlexLexer.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/Common Files/Oracle/Java/javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/WorldPainter"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/sqllite"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:/Users/franc/.cargo/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\franc\\.dotnet\\tools"
+        - "C:/Users/franc/go/bin"
+        - "C:\\Users\\franc\\.cargo\\bin"
+        - "C:/Program Files/JetBrains/CLion 2025.1.2/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:/flutter/bin"
+        - "C:\\zig\\"
+        - "C:/Users/franc/AppData/Local/Pub/Cache/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/clang-uml/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe\\hyperfine-v1.20.0-x86_64-pc-windows-msvc"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vibe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/mingw64"
+        - "C:/Program Files (x86)/vibe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake/Modules/FindBISON.cmake:227 (find_program)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "program"
+    variable: "BISON_EXECUTABLE"
+    description: "path to the bison executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "bison"
+      - "win-bison"
+      - "win_bison"
+    candidate_directories:
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Java/jdk-25.0.2/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/sqllite/"
+      - "C:/Users/franc/.cargo/bin/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/franc/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/franc/.dotnet/tools/"
+      - "C:/Users/franc/go/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.2/bin/"
+      - "C:/Users/franc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/flutter/bin/"
+      - "C:/zig/"
+      - "C:/Users/franc/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/clang-uml/bin/"
+      - "C:/Users/franc/AppData/Local/Microsoft/WinGet/Packages/sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe/hyperfine-v1.20.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/mingw64/sbin/"
+      - "C:/msys64/mingw64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/vibe/bin/"
+      - "C:/Program Files (x86)/vibe/sbin/"
+      - "C:/Program Files (x86)/vibe/"
+    searched_directories:
+      - "C:/msys64/mingw64/bin/bison.com"
+      - "C:/msys64/mingw64/bin/bison.exe"
+      - "C:/msys64/mingw64/bin/bison"
+      - "C:/msys64/usr/bin/bison.com"
+    found: "C:/msys64/usr/bin/bison.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/Common Files/Oracle/Java/javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:/Users/franc/AppData/Local/Android/Sdk/platform-tools"
+        - "C:\\Program Files\\Java\\jdk-25.0.2\\bin"
+        - "C:/Program Files/WorldPainter"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/sqllite"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:/Users/franc/.cargo/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:/Users/franc/AppData/Local/Programs/Python/Python312/"
+        - "C:\\Users\\franc\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\franc\\.dotnet\\tools"
+        - "C:/Users/franc/go/bin"
+        - "C:\\Users\\franc\\.cargo\\bin"
+        - "C:/Program Files/JetBrains/CLion 2025.1.2/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:/flutter/bin"
+        - "C:\\zig\\"
+        - "C:/Users/franc/AppData/Local/Pub/Cache/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/clang-uml/bin"
+        - "C:\\Users\\franc\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sharkdp.hyperfine_Microsoft.Winget.Source_8wekyb3d8bbwe\\hyperfine-v1.20.0-x86_64-pc-windows-msvc"
+        - "C:/Users/franc/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vibe"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/mingw64"
+        - "C:/Program Files (x86)/vibe"
 ...

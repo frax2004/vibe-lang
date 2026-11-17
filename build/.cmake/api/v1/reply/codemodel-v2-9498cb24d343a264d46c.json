@@ -10,7 +10,7 @@
 					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "4.3.3"
+						"string" : "3.30.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "vibe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-vibe-Debug-eababca3dd41dd3b96ef.json",
+					"jsonFile" : "target-vibe-Debug-735e203284e51fa3e7b4.json",
 					"name" : "vibe",
 					"projectIndex" : 0
 				}

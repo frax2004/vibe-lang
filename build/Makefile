@@ -91,13 +91,6 @@ all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c\vibe-lang\build\CMakeFiles 0
 .PHONY : all
 
-# The main codegen target
-codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c\vibe-lang\build\CMakeFiles C:\Dev\c\vibe-lang\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c\vibe-lang\build\CMakeFiles 0
-.PHONY : codegen
-
 # The main clean target
 clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
@@ -134,6 +127,30 @@ vibe: cmake_check_build_system
 vibe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vibe.dir\build.make CMakeFiles/vibe.dir/build
 .PHONY : vibe/fast
+
+src/error.obj: src/error.c.obj
+.PHONY : src/error.obj
+
+# target to build an object file
+src/error.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vibe.dir\build.make CMakeFiles/vibe.dir/src/error.c.obj
+.PHONY : src/error.c.obj
+
+src/error.i: src/error.c.i
+.PHONY : src/error.i
+
+# target to preprocess a source file
+src/error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vibe.dir\build.make CMakeFiles/vibe.dir/src/error.c.i
+.PHONY : src/error.c.i
+
+src/error.s: src/error.c.s
+.PHONY : src/error.s
+
+# target to generate assembly for a file
+src/error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vibe.dir\build.make CMakeFiles/vibe.dir/src/error.c.s
+.PHONY : src/error.c.s
 
 src/interpreter.obj: src/interpreter.c.obj
 .PHONY : src/interpreter.obj
@@ -189,10 +206,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... vibe
+	@echo ... src/error.obj
+	@echo ... src/error.i
+	@echo ... src/error.s
 	@echo ... src/interpreter.obj
 	@echo ... src/interpreter.i
 	@echo ... src/interpreter.s

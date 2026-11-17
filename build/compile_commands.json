@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/Dev/c/vibe-lang/build",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe  @CMakeFiles/vibe.dir/includes_C.rsp -g -std=c23 -o CMakeFiles\\vibe.dir\\src\\error.c.obj -c C:\\Dev\\c\\vibe-lang\\src\\error.c",
+  "file": "C:/Dev/c/vibe-lang/src/error.c",
+  "output": "CMakeFiles/vibe.dir/src/error.c.obj"
+},
+{
+  "directory": "C:/Dev/c/vibe-lang/build",
   "command": "C:\\msys64\\mingw64\\bin\\clang.exe  @CMakeFiles/vibe.dir/includes_C.rsp -g -std=c23 -o CMakeFiles\\vibe.dir\\src\\interpreter.c.obj -c C:\\Dev\\c\\vibe-lang\\src\\interpreter.c",
   "file": "C:/Dev/c/vibe-lang/src/interpreter.c",
   "output": "CMakeFiles/vibe.dir/src/interpreter.c.obj"
