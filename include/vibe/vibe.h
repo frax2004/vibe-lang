@@ -3,8 +3,10 @@
 #include <stdio.h>
 
 typedef enum {
-  VB_OK                 = 0,
-  VB_INVALID_INPUT_FILE = 1 << 0,
+  VB_OK                  = 0,
+  VB_INVALID_INPUT_FILE  = 1 << 0,
+  VB_ALREADY_INITIALIZED = 1 << 1,
+  VB_NOT_READY           = 1 << 2,
 } vb_result_t;
 
 vb_result_t vb_init(void);

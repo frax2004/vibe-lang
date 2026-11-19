@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Dev/c/vibe-lang/build/cmake_install.cmake"
+		"/data/data/com.termux/files/home/c/vibe-lang/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

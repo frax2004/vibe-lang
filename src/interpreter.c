@@ -23,46 +23,44 @@ const char* vb_path(void) {
 }
 
 vb_result_t vb_init(void) {
-  if(self.isReady) return;
+  if(self.isReady) return VB_ALREADY_INITIALIZED;
   self.isReady = true;
+  self.argc = 0;
+  self.argv = NULL;
+  self.path = "<stdin>";
+  self.input = stdin;
 
   return VB_OK;
 }
 
 vb_result_t vb_eval(const char* str) {
-
+  
   return VB_OK;
 }
 
 vb_result_t vb_run(uint64_t argc, const char** argv) {
+
+  if(argc == 0) return VB_OK;
   
-  if(argc > 0) {
-    const char* path = argv[0];
+  const char* path = argv[0];
+  FILE* stream = fopen(path, "r");
 
-    FILE* stream = fopen(path, "r");
-    if(stream == NULL) {
-      vb_error("invalid input file \"%s\"", path);
-      return VB_INVALID_INPUT_FILE;
-    }
-
-    self.argc = argc-1;
-    self.argv = argv+1;
-    self.path = path;
-    self.input = stream;
-    self.isReady = true;
-  } else {
-    self.argc = 0;
-    self.argv = NULL;
-    self.path = "<stdin>";
-    self.input = stdin;
-    self.isReady = true;
+  if(stream == NULL) {
+    vb_error("invalid input file \"%s\"", path);
+    
+    return VB_INVALID_INPUT_FILE;
   }
 
-  return VB_OK;
+  self.argc = argc-1;
+  self.argv = argv+1;
+  self.path = path;
+  self.input = stream;
+
+  return vb_eval(NULL);
 }
 
 vb_result_t vb_close(void) {
-  if(!self.isReady) return;
+  if(!self.isReady) return VB_NOT_READY;
 
   if(self.input != stdin) {
     fclose(self.input);

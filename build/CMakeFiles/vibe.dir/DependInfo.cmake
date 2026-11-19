@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Dev/c/vibe-lang/src/error.c" "CMakeFiles/vibe.dir/src/error.c.obj" "gcc" "CMakeFiles/vibe.dir/src/error.c.obj.d"
-  "C:/Dev/c/vibe-lang/src/interpreter.c" "CMakeFiles/vibe.dir/src/interpreter.c.obj" "gcc" "CMakeFiles/vibe.dir/src/interpreter.c.obj.d"
-  "C:/Dev/c/vibe-lang/src/main.c" "CMakeFiles/vibe.dir/src/main.c.obj" "gcc" "CMakeFiles/vibe.dir/src/main.c.obj.d"
+  "/data/data/com.termux/files/home/c/vibe-lang/src/error.c" "CMakeFiles/vibe.dir/src/error.c.o" "gcc" "CMakeFiles/vibe.dir/src/error.c.o.d"
+  "/data/data/com.termux/files/home/c/vibe-lang/src/interpreter.c" "CMakeFiles/vibe.dir/src/interpreter.c.o" "gcc" "CMakeFiles/vibe.dir/src/interpreter.c.o.d"
+  "/data/data/com.termux/files/home/c/vibe-lang/src/main.c" "CMakeFiles/vibe.dir/src/main.c.o" "gcc" "CMakeFiles/vibe.dir/src/main.c.o.d"
+  "" "/data/data/com.termux/files/home/c/vibe-lang/bin/vibe" "gcc" "CMakeFiles/vibe.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

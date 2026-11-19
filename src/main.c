@@ -13,6 +13,9 @@ void client(int32_t argc, const char* argv[]) {
   | vb_close()
   ;
 
+  if(result != VB_OK) {
+    fprintf(stderr, "error");
+  }
 }
 
 void segfault_handler(int32_t _) {
