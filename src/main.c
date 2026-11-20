@@ -2,20 +2,15 @@
 #include <signal.h>
 #include <stdio.h>
 
-#include <vibe/vibe.h>
+#include <vibe.h>
 
 
 void client(int32_t argc, const char* argv[]) {
-
   vb_result_t result = VB_OK
   | vb_init()
   | vb_run(argc-1, argv+1)
   | vb_close()
   ;
-
-  if(result != VB_OK) {
-    fprintf(stderr, "error");
-  }
 }
 
 void segfault_handler(int32_t _) {

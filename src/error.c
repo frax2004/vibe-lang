@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#include <vibe/vibe.h>
+#include <vibe.h>
 
 
 #define RGB(r, g, b) "\033[38;2;"#r";"#g";"#b"m"
