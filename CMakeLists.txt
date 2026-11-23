@@ -1,16 +1,18 @@
 cmake_minimum_required(VERSION 3.30.0)
-project(vibe LANGUAGES C)
+project(vibe LANGUAGES C CXX)
 
 set(CMAKE_C_STANDARD 23)
 set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 26)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_C_EXTENSIONS OFF)
+set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 
-file(GLOB SOURCES src/*.c)
+file(GLOB SOURCES src/*.cpp)
 
 add_executable(vibe ${SOURCES})
 
 target_include_directories(vibe PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
-
-
+target_link_libraries(vibe PUBLIC stdc++exp)
